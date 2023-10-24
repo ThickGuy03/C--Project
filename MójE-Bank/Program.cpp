@@ -1,4 +1,5 @@
 ﻿#include "LoginForm.h"
+#include "MainForm.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -14,7 +15,8 @@ void main(array<String^>^ args)
 
 	if (user != nullptr)
 	{
-		MessageBox::Show("Udana weryfikacja " + user->name+" "+user->surname, "Program.cpp", MessageBoxButtons::OK);
+		MójEBank::MainForm mainForm(user);
+		Application::Run(% mainForm);
 	}
 	else {
 		MessageBox::Show("Weryfikacja nieudana", "Program.cpp", MessageBoxButtons::OK);
