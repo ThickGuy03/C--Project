@@ -11,7 +11,6 @@ void main(array<String^>^ args)
 	Application::SetCompatibleTextRenderingDefault(false);
 	
 	User^ user = nullptr;
-	Credit^ credit = nullptr;
 	while (true) {
 
 		MójEBank::LoginForm loginForm;
