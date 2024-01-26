@@ -1,1 +1,6 @@
-
+1. Pobieramy Visual Studio Community 2022  https://visualstudio.microsoft.com/pl/vs/community/
+2. Po zainstalowaniu uruchamiamy Visual Studio Installer
+3. Modyfikujemy Visual Studio 2022
+4. Zaznaczmy: Programowanie Aplikacji klasycznych dla platformy .NET/Programowanie klasycznych aplikacji w języku C++/Opracowywanie zawartości dla platformy Uniwersalnej
+5. W "Opracowywanie zawartości dla platformy uniwersalnej" w "Programowanie Aplikacji klasycznej" zaznaczamy Obsługa C++/CLI dla narzędzi kompilacji
+6. Jeśli wszystko się powiodło powinniśmy móc odpalić aplikacje
