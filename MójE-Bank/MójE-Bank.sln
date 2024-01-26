@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MójE-Bank", "MójE-Bank.vcxproj", "{2E1E6155-5ED8-47BD-8E21-24082FAFB004}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MojEBankSetup", "..\MojEBankSetup\MojEBankSetup.vdproj", "{C8004790-484D-448F-90C7-7E832D07E6F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{2E1E6155-5ED8-47BD-8E21-24082FAFB004}.Release|x64.Build.0 = Release|x64
 		{2E1E6155-5ED8-47BD-8E21-24082FAFB004}.Release|x86.ActiveCfg = Release|Win32
 		{2E1E6155-5ED8-47BD-8E21-24082FAFB004}.Release|x86.Build.0 = Release|Win32
+		{C8004790-484D-448F-90C7-7E832D07E6F5}.Debug|x64.ActiveCfg = Debug
+		{C8004790-484D-448F-90C7-7E832D07E6F5}.Debug|x86.ActiveCfg = Debug
+		{C8004790-484D-448F-90C7-7E832D07E6F5}.Release|x64.ActiveCfg = Release
+		{C8004790-484D-448F-90C7-7E832D07E6F5}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
